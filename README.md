@@ -34,4 +34,4 @@ Then open `http://localhost:8000`.
 
 The portfolio is automatically deployed from `main` with GitHub Actions:
 
-https://seddikiishak298-bot.github.io/Portfolio/
+https://ishakseddiki.github.io/Portfolio/
