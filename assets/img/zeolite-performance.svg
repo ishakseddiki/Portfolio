@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1300 560" role="img" aria-labelledby="title desc">
+  <title id="title">ZeoSyn project showcase: performance and dataset context</title>
+  <desc id="desc">Model performance comparison for DNN, Random Forest and XGBoost, alongside the ten most frequent framework classes in the cleaned ZeoSyn dataset.</desc>
+  <rect width="1300" height="560" fill="#f8fafb"/>
+  <style>
+    text { font-family: Inter, Arial, sans-serif; fill: #263238; }
+    .main { font-size: 24px; font-weight: 750; }
+    .sub { font-size: 17px; font-weight: 620; }
+    .axis { font-size: 11px; fill: #46535a; }
+    .label { font-size: 12px; fill: #303b40; }
+    .value { font-size: 11px; font-weight: 750; fill: #172126; }
+    .grid { stroke: #d7dee2; stroke-width: 1; }
+    .base { stroke: #9daab1; stroke-width: 1.2; }
+  </style>
+
+  <text class="main" x="650" y="31" text-anchor="middle">ZeoSyn Project Showcase: Performance and Dataset Context</text>
+
+  <text class="sub" x="330" y="72" text-anchor="middle">Model Performance for Zeolite Framework Classification</text>
+  <line class="grid" x1="55" y1="115" x2="610" y2="115"/>
+  <line class="grid" x1="55" y1="155" x2="610" y2="155"/>
+  <line class="grid" x1="55" y1="195" x2="610" y2="195"/>
+  <line class="grid" x1="55" y1="235" x2="610" y2="235"/>
+  <line class="grid" x1="55" y1="275" x2="610" y2="275"/>
+  <line class="grid" x1="55" y1="315" x2="610" y2="315"/>
+  <line class="grid" x1="55" y1="355" x2="610" y2="355"/>
+  <line class="grid" x1="55" y1="395" x2="610" y2="395"/>
+  <line class="grid" x1="55" y1="435" x2="610" y2="435"/>
+  <line class="base" x1="55" y1="475" x2="610" y2="475"/>
+  <line class="base" x1="55" y1="115" x2="55" y2="475"/>
+
+  <g class="axis" text-anchor="end">
+    <text x="45" y="479">0.0</text><text x="45" y="439">0.1</text><text x="45" y="399">0.2</text>
+    <text x="45" y="359">0.3</text><text x="45" y="319">0.4</text><text x="45" y="279">0.5</text>
+    <text x="45" y="239">0.6</text><text x="45" y="199">0.7</text><text x="45" y="159">0.8</text><text x="45" y="119">0.9</text>
+  </g>
+  <text class="axis" x="15" y="300" text-anchor="middle" transform="rotate(-90 15 300)">Score</text>
+
+  <g transform="translate(63 91)">
+    <rect width="14" height="10" fill="#174f59"/><text class="axis" x="20" y="9">Accuracy</text>
+    <rect y="16" width="14" height="10" fill="#e96b0b"/><text class="axis" x="20" y="25">Macro F1</text>
+    <rect y="32" width="14" height="10" fill="#69984d"/><text class="axis" x="20" y="41">Weighted F1</text>
+  </g>
+
+  <rect x="78" y="231" width="38" height="244" fill="#174f59"/><text class="value" x="97" y="222" text-anchor="middle">0.61</text>
+  <rect x="116" y="275" width="38" height="200" fill="#e96b0b"/><text class="value" x="135" y="266" text-anchor="middle">0.50</text>
+  <rect x="154" y="239" width="38" height="236" fill="#69984d"/><text class="value" x="173" y="230" text-anchor="middle">0.59</text>
+
+  <rect x="272" y="183" width="38" height="292" fill="#174f59"/><text class="value" x="291" y="174" text-anchor="middle">0.73</text>
+  <rect x="310" y="239" width="38" height="236" fill="#e96b0b"/><text class="value" x="329" y="230" text-anchor="middle">0.59</text>
+  <rect x="348" y="183" width="38" height="292" fill="#69984d"/><text class="value" x="367" y="174" text-anchor="middle">0.73</text>
+
+  <rect x="466" y="171" width="38" height="304" fill="#174f59"/><text class="value" x="485" y="162" text-anchor="middle">0.76</text>
+  <rect x="504" y="235" width="38" height="240" fill="#e96b0b"/><text class="value" x="523" y="226" text-anchor="middle">0.60</text>
+  <rect x="542" y="171" width="38" height="304" fill="#69984d"/><text class="value" x="561" y="162" text-anchor="middle">0.76</text>
+
+  <g class="label" text-anchor="middle">
+    <text x="135" y="495">DNN</text><text x="329" y="495">Random Forest</text><text x="523" y="495">XGBoost</text>
+  </g>
+
+  <text class="sub" x="974" y="72" text-anchor="middle">Top 10 Framework Classes in ZEOSYN_clean_dataset</text>
+  <line class="base" x1="760" y1="102" x2="760" y2="475"/>
+  <line class="base" x1="760" y1="475" x2="1240" y2="475"/>
+  <line class="grid" x1="834" y1="102" x2="834" y2="475"/>
+  <line class="grid" x1="908" y1="102" x2="908" y2="475"/>
+  <line class="grid" x1="982" y1="102" x2="982" y2="475"/>
+  <line class="grid" x1="1056" y1="102" x2="1056" y2="475"/>
+  <line class="grid" x1="1130" y1="102" x2="1130" y2="475"/>
+  <line class="grid" x1="1204" y1="102" x2="1204" y2="475"/>
+
+  <g class="label" text-anchor="end">
+    <text x="749" y="126">Failed</text><text x="749" y="163">MFI</text><text x="749" y="200">CHA</text>
+    <text x="749" y="237">*BEA</text><text x="749" y="274">AFI</text><text x="749" y="311">MTW</text>
+    <text x="749" y="348">LTA</text><text x="749" y="385">FAU</text><text x="749" y="422">MOR</text><text x="749" y="459">MWW</text>
+  </g>
+
+  <rect x="760" y="105" width="454" height="27" fill="#95b995"/><text class="value" x="1220" y="123">6,137</text>
+  <rect x="760" y="142" width="166" height="27" fill="#76a693"/><text class="value" x="932" y="160">2,244</text>
+  <rect x="760" y="179" width="105" height="27" fill="#65a097"/><text class="value" x="871" y="197">1,418</text>
+  <rect x="760" y="216" width="86" height="27" fill="#589493"/><text class="value" x="852" y="234">1,164</text>
+  <rect x="760" y="253" width="68" height="27" fill="#49858a"/><text class="value" x="834" y="271">914</text>
+  <rect x="760" y="290" width="44" height="27" fill="#407880"/><text class="value" x="810" y="308">593</text>
+  <rect x="760" y="327" width="41" height="27" fill="#3c727b"/><text class="value" x="807" y="345">556</text>
+  <rect x="760" y="364" width="40" height="27" fill="#386c77"/><text class="value" x="806" y="382">546</text>
+  <rect x="760" y="401" width="36" height="27" fill="#376371"/><text class="value" x="802" y="419">489</text>
+  <rect x="760" y="438" width="34" height="27" fill="#354f70"/><text class="value" x="800" y="456">464</text>
+
+  <g class="axis" text-anchor="middle">
+    <text x="760" y="495">0</text><text x="834" y="495">1000</text><text x="908" y="495">2000</text>
+    <text x="982" y="495">3000</text><text x="1056" y="495">4000</text><text x="1130" y="495">5000</text><text x="1204" y="495">6000</text>
+  </g>
+  <text class="axis" x="1000" y="523" text-anchor="middle">Number of Synthesis Routes</text>
+  <text class="axis" x="700" y="300" text-anchor="middle" transform="rotate(-90 700 300)">Code1</text>
+</svg>

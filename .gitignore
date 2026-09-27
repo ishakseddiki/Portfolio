@@ -1,0 +1,10 @@
+# Source/reference files already copied into the organized website assets.
+Solarinc.docx
+Solarinc.mp4
+solrinc .png
+2026-09-24 01-15-16.mp4
+
+# Local operating-system and editor files.
+.DS_Store
+Thumbs.db
+.vscode/
