@@ -8,7 +8,7 @@ A static, host-ready engineering portfolio created from Ishak Seddiki's supplied
 - **12 engineering case studies** spanning process simulation, COMSOL multiphysics, scientific machine learning, materials informatics, renewable energy and long-duration energy storage.
 - Expanded descriptions for every project: project overview, engineering challenge, methodology/workflow, engineering configuration, key results, software/deliverables, validation notes and next-development steps.
 - New **CO₂ Battery & Packed-Bed Thermal Energy Storage** case study using the supplied plant image and detailed CO₂ Battery project document.
-- Local project images and six web-optimized demo videos.
+- Local project images and seven web-optimized demo videos.
 - CV-grounded Ishak Seddiki profile, Sonatrach experience, education and contact information.
 - Downloadable Ishak Seddiki CV.
 - No framework, package manager or build step required.
@@ -32,4 +32,6 @@ Then open `http://localhost:8000`.
 
 ## Hosting
 
-Upload the contents of `portfolio_site` directly to GitHub Pages, Netlify, Cloudflare Pages, Vercel static hosting or a normal web server. Keep the folder structure unchanged.
+The portfolio is automatically deployed from `main` with GitHub Actions:
+
+https://seddikiishak298-bot.github.io/Portfolio/
